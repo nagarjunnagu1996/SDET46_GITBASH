@@ -7,6 +7,7 @@ public class practice1Test {
 	public void test()
 	{
 		System.out.println("test 1---");
+		System.out.println("for scheduling practice");
 
 
 	}
