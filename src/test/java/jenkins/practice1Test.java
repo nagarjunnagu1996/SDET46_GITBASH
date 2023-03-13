@@ -8,6 +8,8 @@ public class practice1Test {
 	{
 		System.out.println("test 1---");
 		System.out.println("for scheduling practice");
+		String urls=System.getProperty("url");
+		System.out.println(urls);
 
 
 	}

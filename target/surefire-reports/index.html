@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>E:\eclipse workspace\selenium workspace\SDET workspace\SMS_git\testngjenkins.xml</span>
+                    <span>E:\eclipse workspace\selenium workspace\SDET workspace\SMS_git\testngpract12.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="jenkins.practice1Test" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="jenkins.pract2Test" hash-for-method="ok">ok</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="jenkins.practice2githTest" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="jenkins.pract1test" hash-for-method="ok">ok</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="jenkins.practice2githTest" hash-for-method="test3">test3</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="jenkins.pract2Test" hash-for-method="ok1">ok1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="jenkins.pract1test" hash-for-method="ok1">ok1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,21 +137,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">jenkins.practice2githTest</span>
+              <span class="class-name">jenkins.pract1test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test2">
-                  </a> <!-- test2 -->
-                  <span class="method-name">test2</span>
+                  <a name="ok">
+                  </a> <!-- ok -->
+                  <span class="method-name">ok</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test3">
-                  </a> <!-- test3 -->
-                  <span class="method-name">test3</span>
+                  <a name="ok1">
+                  </a> <!-- ok1 -->
+                  <span class="method-name">ok1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -154,14 +159,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">jenkins.practice1Test</span>
+              <span class="class-name">jenkins.pract2Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="ok">
+                  </a> <!-- ok -->
+                  <span class="method-name">ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ok1">
+                  </a> <!-- ok1 -->
+                  <span class="method-name">ok1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -169,7 +181,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\eclipse workspace\selenium workspace\SDET workspace\SMS_git\testngjenkins.xml</span>
+            <span class="header-content">E:\eclipse workspace\selenium workspace\SDET workspace\SMS_git\testngpract12.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -178,8 +190,8 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;jenkins.practice1Test&quot;/&gt;
-      &lt;class name=&quot;jenkins.practice2githTest&quot;/&gt;
+      &lt;class name=&quot;jenkins.pract2Test&quot;/&gt;
+      &lt;class name=&quot;jenkins.pract1test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -219,24 +231,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'jenkins.practice1Test')
-data.setCell(0, 3, 20);
+data.setCell(0, 1, 'ok')
+data.setCell(0, 2, 'jenkins.pract2Test')
+data.setCell(0, 3, 28);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test3')
-data.setCell(1, 2, 'jenkins.practice2githTest')
+data.setCell(1, 1, 'ok1')
+data.setCell(1, 2, 'jenkins.pract2Test')
 data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test2')
-data.setCell(2, 2, 'jenkins.practice2githTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'ok')
+data.setCell(2, 2, 'jenkins.pract1test')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ok1')
+data.setCell(3, 2, 'jenkins.pract1test')
+data.setCell(3, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 ms</span>
+              <span class="suite-total-time">Total running time: 30 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -262,21 +278,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">jenkins.practice1Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">jenkins.pract2Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test</span>
+                <span class="method-name">ok</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ok1</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">jenkins.practice2githTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">jenkins.pract1test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test2</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-name">ok</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test3</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-name">ok1</span>
+                <span class="method-start">38 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

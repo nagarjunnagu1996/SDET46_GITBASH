@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-10T15:12:46 IST" name="Default suite" finished-at="2023-03-10T15:12:47 IST" duration-ms="128">
+  <suite started-at="2023-03-12T22:03:39 IST" name="Default suite" finished-at="2023-03-12T22:03:39 IST" duration-ms="154">
     <groups>
     </groups>
-    <test started-at="2023-03-10T15:12:46 IST" name="Default test" finished-at="2023-03-10T15:12:47 IST" duration-ms="128">
-      <class name="practice2githTest">
-        <test-method signature="test2()[pri:0, instance:practice2githTest@3e84448c]" started-at="2023-03-10T15:12:47 IST" name="test2" finished-at="2023-03-10T15:12:47 IST" duration-ms="26" status="PASS">
+    <test started-at="2023-03-12T22:03:39 IST" name="Default test" finished-at="2023-03-12T22:03:39 IST" duration-ms="154">
+      <class name="jenkins.pract1test">
+        <test-method signature="ok()[pri:0, instance:jenkins.pract1test@78123e82]" started-at="2023-03-12T22:03:39 IST" name="ok" finished-at="2023-03-12T22:03:39 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- practice2githTest -->
+        </test-method> <!-- ok -->
+        <test-method signature="ok1()[pri:0, instance:jenkins.pract1test@78123e82]" started-at="2023-03-12T22:03:39 IST" name="ok1" finished-at="2023-03-12T22:03:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ok1 -->
+      </class> <!-- jenkins.pract1test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

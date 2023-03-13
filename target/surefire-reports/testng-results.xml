@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="83" started-at="2023-03-10T17:25:33 IST" finished-at="2023-03-10T17:25:34 IST">
+  <suite name="Suite" duration-ms="162" started-at="2023-03-12T22:13:23 IST" finished-at="2023-03-12T22:13:23 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="83" started-at="2023-03-10T17:25:33 IST" finished-at="2023-03-10T17:25:34 IST">
-      <class name="jenkins.practice2githTest">
-        <test-method status="PASS" signature="test2()[pri:0, instance:jenkins.practice2githTest@64729b1e]" name="test2" duration-ms="0" started-at="2023-03-10T17:25:34 IST" finished-at="2023-03-10T17:25:34 IST">
+    <test name="Test" duration-ms="162" started-at="2023-03-12T22:13:23 IST" finished-at="2023-03-12T22:13:23 IST">
+      <class name="jenkins.pract1test">
+        <test-method status="PASS" signature="ok()[pri:0, instance:jenkins.pract1test@64729b1e]" name="ok" duration-ms="1" started-at="2023-03-12T22:13:23 IST" finished-at="2023-03-12T22:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:jenkins.practice2githTest@64729b1e]" name="test3" duration-ms="1" started-at="2023-03-10T17:25:34 IST" finished-at="2023-03-10T17:25:34 IST">
+        </test-method> <!-- ok -->
+        <test-method status="PASS" signature="ok1()[pri:0, instance:jenkins.pract1test@64729b1e]" name="ok1" duration-ms="0" started-at="2023-03-12T22:13:23 IST" finished-at="2023-03-12T22:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- jenkins.practice2githTest -->
-      <class name="jenkins.practice1Test">
-        <test-method status="PASS" signature="test()[pri:0, instance:jenkins.practice1Test@694e1548]" name="test" duration-ms="20" started-at="2023-03-10T17:25:34 IST" finished-at="2023-03-10T17:25:34 IST">
+        </test-method> <!-- ok1 -->
+      </class> <!-- jenkins.pract1test -->
+      <class name="jenkins.pract2Test">
+        <test-method status="PASS" signature="ok()[pri:0, instance:jenkins.pract2Test@694e1548]" name="ok" duration-ms="28" started-at="2023-03-12T22:13:23 IST" finished-at="2023-03-12T22:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- jenkins.practice1Test -->
+        </test-method> <!-- ok -->
+        <test-method status="PASS" signature="ok1()[pri:0, instance:jenkins.pract2Test@694e1548]" name="ok1" duration-ms="1" started-at="2023-03-12T22:13:23 IST" finished-at="2023-03-12T22:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ok1 -->
+      </class> <!-- jenkins.pract2Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
